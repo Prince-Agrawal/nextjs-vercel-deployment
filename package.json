@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build && cypress run",
     "start": "next start -p $PORT",
-    "now-build": "next build && cypress run",
+    "now-build": "next build && cypress run --headless",
     "cypress": "cypress open",
     "cypress:headless": "cypress run"
   },
