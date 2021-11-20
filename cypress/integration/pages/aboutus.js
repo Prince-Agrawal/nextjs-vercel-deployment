@@ -4,6 +4,7 @@ describe('Navigation', () => {
     it('should navigate to the about page', () => {
       // Start from the index page
       cy.visit('https://nextjs-vercel-deployment.vercel.app/')
+      // https://nextjs-vercel-deployment.vercel.app/
   
       // Find a link with an href attribute containing "about" and click it
       cy.get('a[href*="about"]').click()
@@ -12,6 +13,6 @@ describe('Navigation', () => {
       cy.url().should('include', '/about')
   
       // The new page should contain an h1 with "About page"
-      cy.get('p').contains('This is the about page')
+      cy.get('p').contains('Thisss is ')
     })
   })
