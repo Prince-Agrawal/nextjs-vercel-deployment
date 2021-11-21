@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build && cypress run",
     "start": "next start -p $PORT",
-    "now-build": "npm install && npm i -g cypress && next build && cypress run",
+    "now-build": "npm install && next build && cypress run",
     "cypress": "cypress open",
     "cypress:headless": "cypress run"
   },
