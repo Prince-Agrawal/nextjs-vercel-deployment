@@ -16,13 +16,13 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^9.0.0",
+    "graceful-fs": "^4.2.1",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "graceful-fs": "^4.2.1",
     "isomorphic-unfetch": "^3.0.0"
   }
 }
