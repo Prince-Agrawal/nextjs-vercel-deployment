@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build && cypress run",
     "start": "next start -p $PORT",
-    "now-build": "next build && cypress run --headless",
+    "now-build": "npm install && next build && cypress run --headless",
     "cypress": "cypress open",
     "cypress:headless": "cypress run"
   },
@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "isomorphic-unfetch": "^3.0.0"
+    "isomorphic-unfetch": "^3.0.0",
+    "xvfb": "^0.4.0"
   }
 }
